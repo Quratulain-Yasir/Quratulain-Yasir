@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Asimovian&family=Bebas+Neue&family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+*{
+  box-sizing: border-box;
+}
+/* Your custom class */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+.font-one{
+  font-family: Bebas Neue;  
+}
+.font-two{
+  font-family: Libertinus ;
+}
+.font-three{
+  font-family: Asimovian; 
+    margin: 0 !important;  
+    padding: 0 !important;
+  line-height: 0.8 !important; 
+}
+.font-four{
+  font-family: Roboto;
+}
+::selection {
+  background: #c29dff;   
+  color: black;        
+  line-height: 0%;  
+}
+.custom-gradient {
+  background: radial-gradient(
+    circle at 0% 0%, 
+    rgba(46, 3, 95, 0.566), 
+    rgba(106, 13, 173, 0.486), 
+    rgba(106, 13, 173, 0.22), 
+    rgba(46, 3, 95, 0.176)
+  );
+}
