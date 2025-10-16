@@ -1,5 +1,7 @@
 import React from 'react'
 import { motion } from "framer-motion";
+import ContactForm from './ContactForm';
+import ContactInfo from './ContactInfo';
 
 const Contact = () => {
     const fadeUp = {
@@ -14,7 +16,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="py-16 bg-[#FFF8E1]"
+      className="py-16"
       aria-labelledby="contact-heading"
     >
           <div className="container mx-auto px-4 max-w-6xl">
@@ -28,14 +30,19 @@ const Contact = () => {
         >
           <h2
             id="contact-heading"
-            className="text-3xl md:text-4xl font-bold text-[#6D4C41] mb-4"
+            className="text-4xl sm:text-5xl font-two font-bold text-[#6A0DAD] mb-4"
           >
             Get In Touch
           </h2>
-          <p className="text-gray-600 max-w-2xl mx-auto">
-            Have questions or suggestions? I'd love to hear from you!
+          <p className="inline-block text-gray-900 font-three items-center max-w-2xl mx-auto text-md sm:text-xl ">
+            Have a question or want to discuss your project?
           </p>
         </motion.div>
+</div>
+
+<div className='flex flex-col lg:flex-row gap-10 px-7'>
+  <ContactForm />
+  <ContactInfo />
 </div>
     </section>
   )

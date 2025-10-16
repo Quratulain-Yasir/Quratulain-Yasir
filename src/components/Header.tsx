@@ -49,7 +49,7 @@ export default function Header() {
             className="absolute top-full right-6 md:right-12 mt-3 bg-white shadow-lg rounded-xl overflow-hidden w-48"
           >
             <ul className="flex flex-col divide-y divide-gray-200">
-              {["Home", "About", "Services", "Portfolio", "Contact"].map(
+              {["Home", "About", "Services", "Portfolio", "FAQ" , "Contact"].map(
                 (item, idx) => (
                   <motion.li
                     key={idx}
