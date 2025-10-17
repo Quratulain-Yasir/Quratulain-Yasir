@@ -8,7 +8,7 @@ const Hero = () => {
       {/* Left Text Content */}
       <div className="md:w-1/2 w-[50vw] space-y-2 sm:space-y-2 relative z-10 sm:-mr-20">
       
-        <h1 className="text-3xl sm:text-7xl font-medium leading-tighter mt-18 mb-8">
+        <h1 className="text-3xl sm:text-7xl font-medium leading-tighter mt-18 mb-8  z-10 -mr-10">
           <span className="font-one">clean, mobile-first websites</span>
           <br />
           <span className="italic font-medium font-two">& scalable APIs</span>
@@ -16,7 +16,7 @@ const Hero = () => {
           <span className="font-one">with React & Node.js</span>
         </h1>
 
-        <p className="max-w-md font-two text-base sm:text-lg md:text-2xl font-medium text-[#d8cfc4] -mr-30 py-6">
+        <p className="max-w-md font-two text-base sm:text-lg md:text-2xl font-medium text-[#d8cfc4] -mr-30 py-5">
           Helping small businesses and individuals go online with fast, responsive, and secure digital solutions powered by React & Node.js
         </p>
 
@@ -38,7 +38,7 @@ const Hero = () => {
         <img
           src={profileImage}
           alt="Profile"
-          className="w-[70vw] sm:w-[30vw] h-[60vh] sm:h-[100vh] object-cover rounded-b-[150px] sm:rounded-b-[200px] md:rounded-b-[250px] border-4 border-[#d8cfc4]"
+          className="w-[70vw] sm:w-[30vw] h-[60vh] sm:h-[100vh] object-cover rounded-b-[150px] sm:rounded-b-[200px] md:rounded-b-[250px] border-4 border-[#54068c]"
         />
       </motion.div>
 
