@@ -18,7 +18,7 @@ export default function Header() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.4 }}
-        className="text-lg sm:text-4xl  tracking-wider text-shadow-lg"
+        className="text-xl sm:text-4xl  tracking-wider text-shadow-lg"
       >
         QURATULAIN
       </motion.h1>

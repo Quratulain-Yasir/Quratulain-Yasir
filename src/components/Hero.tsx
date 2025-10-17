@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 
 const Hero = () => {
   return (
-  <section id="home" className="min-h-screen flex px-6 sm:px-10 md:px-20 py-3 sm:py-10 bg-[#2E035F] text-[#F3F4F6]">
+  <section id="home" className="min-h-screen flex px-6 sm:px-10 md:px-20 py-3 pb-10 sm:py-10 bg-[#2E035F] text-[#F3F4F6]">
       {/* Left Text Content */}
       <div className="md:w-1/2 w-[50vw] space-y-2 sm:space-y-2 relative z-10 sm:-mr-20">
       
@@ -20,7 +20,7 @@ const Hero = () => {
           Helping small businesses and individuals go online with fast, responsive, and secure digital solutions powered by React & Node.js
         </p>
 
-        <button className="border-2 border-[#6A0DAD] pl-4 pr-2 py-1 rounded-full hover:bg-[#6A0DAD] text-[#d8cfc4] hover:text-[#d8cfc4] shadow-md shadow-[#d8cfc4] transition font-one text-sm sm:text-base md:text-lg inline-flex gap-2 sm:gap-3 items-center hover:scale-105 duration-300 ease-in-out mt-4">
+        <button className="border-2 border-[#6A0DAD] pl-4 pr-2 py-1 rounded-full hover:bg-[#6A0DAD] focus:bg-[#6A0DAD] text-[#d8cfc4] hover:text-[#d8cfc4] shadow-md shadow-[#d8cfc4] transition font-one text-md sm:text-lg inline-flex gap-2 sm:gap-3 items-center hover:scale-105 focus:scale-105 duration-300 ease-in-out mt-4 z-10 -mr-20">
           Let’s Build Your Website
           <span className="bg-[#d8cfc4] rounded-full px-2 py-2 text-black">
             <ArrowRight className="w-4 h-4" />

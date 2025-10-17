@@ -48,7 +48,7 @@ const HelpSection = () => {
             <motion.li
               key={service.id}
               variants={fadeUp}
-              className="flex items-center gap-4 p-6 bg-white rounded-2xl shadow-lg hover:shadow-[#974acf]  transition-all duration-300 ease-in-out hover:scale-x-105"
+              className="flex items-center gap-4 p-6 bg-white rounded-2xl shadow-lg hover:shadow-[#974acf] focus:shadow-[#974acf] transition-all duration-300 ease-in-out hover:scale-x-105"
             >
               <div
                 className={`flex items-center justify-center w-12 h-12 rounded-full bg-[#6A0DAD]`}
