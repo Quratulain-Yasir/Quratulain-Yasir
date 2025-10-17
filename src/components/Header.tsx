@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Menu , X  } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import { Link } from "react-scroll";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -49,18 +50,43 @@ export default function Header() {
             className="absolute top-full right-6 md:right-12 mt-3 bg-white shadow-lg rounded-xl overflow-hidden w-48"
           >
             <ul className="flex flex-col divide-y divide-gray-200">
-              {["Home", "About", "Services", "Portfolio", "FAQ" , "Contact"].map(
-                (item, idx) => (
                   <motion.li
-                    key={idx}
                     whileHover={{ backgroundColor: "#f9fafb" }}
                     className="px-4 py-3 text-sm cursor-pointer text-[#6A0DAD]"
                   >
-                    {item}
+                    <Link to="home" smooth={true} duration={500}>Home</Link>
                   </motion.li>
-                )
-              )}
-            </ul>
+                  <motion.li
+                    whileHover={{ backgroundColor: "#f9fafb" }}
+                    className="px-4 py-3 text-sm cursor-pointer text-[#6A0DAD]"
+                  >
+                    <Link to="about" smooth={true} duration={500}>About Me</Link>
+                  </motion.li>
+                  <motion.li
+                    whileHover={{ backgroundColor: "#f9fafb" }}
+                    className="px-4 py-3 text-sm cursor-pointer text-[#6A0DAD]"
+                  >
+                    <Link to="services" smooth={true} duration={500}>Services</Link>
+                  </motion.li>
+                  <motion.li
+                    whileHover={{ backgroundColor: "#f9fafb" }}
+                    className="px-4 py-3 text-sm cursor-pointer text-[#6A0DAD]"
+                  >
+                    <Link to="portfolio" smooth={true} duration={500}>Portfolio</Link>
+                  </motion.li>
+                  <motion.li
+                    whileHover={{ backgroundColor: "#f9fafb" }}
+                    className="px-4 py-3 text-sm cursor-pointer text-[#6A0DAD]"
+                  >
+                    <Link to="faq" smooth={true} duration={500}>FAQ</Link>
+                  </motion.li>
+                  <motion.li
+                    whileHover={{ backgroundColor: "#f9fafb" }}
+                    className="px-4 py-3 text-sm cursor-pointer text-[#6A0DAD]"
+                  >
+                    <Link to="contact" smooth={true} duration={500}>Contact Me</Link>
+                  </motion.li>
+                  </ul>
           </motion.div>
         )}
       </AnimatePresence>

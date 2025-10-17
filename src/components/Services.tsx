@@ -30,7 +30,8 @@ const fadeUp = {
 
 const HelpSection = () => {
   return (
-    <section
+    <section 
+      id="services"
       className="py-16 px-6 sm:px-12 lg:px-20 h-full w-full custom-gradient"
       aria-labelledby="help-heading"
     >

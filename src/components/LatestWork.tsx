@@ -7,7 +7,7 @@ import work4 from "../assets/work-4.png";
 
 const LatestWork = () => {
   return (
-    <section>
+    <section id="portfolio">
       <div className="py-10 px-12 sm:px-20 font-medium w-full min-h-[80vh] text-gray-700 bg-[#2E035F]">
         {/* Heading Animation */}
         <motion.h2

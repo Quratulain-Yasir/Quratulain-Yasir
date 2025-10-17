@@ -14,7 +14,7 @@ function App() {
       <Hero />
       <Services /> 
       <LatestWork /> 
-      <div className=" custom-gradient">
+      <div className="custom-gradient">
       <FAQ />
       <Contact />
       </div>

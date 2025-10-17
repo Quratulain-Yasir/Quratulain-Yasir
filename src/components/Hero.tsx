@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 
 const Hero = () => {
   return (
-  <section className="min-h-screen flex px-6 sm:px-10 md:px-20 py-10 bg-[#2E035F] text-[#F3F4F6]">
+  <section id="home" className="min-h-screen flex px-6 sm:px-10 md:px-20 py-3 sm:py-10 bg-[#2E035F] text-[#F3F4F6]">
       {/* Left Text Content */}
       <div className="md:w-1/2 w-[50vw] space-y-2 sm:space-y-2 relative z-10 sm:-mr-20">
       
@@ -16,7 +16,7 @@ const Hero = () => {
           <span className="font-one">with React & Node.js</span>
         </h1>
 
-        <p className="max-w-md font-two text-base sm:text-lg md:text-2xl font-medium text-[#d8cfc4]">
+        <p className="max-w-md font-two text-base sm:text-lg md:text-2xl font-medium text-[#d8cfc4] -mr-30 py-6">
           Helping small businesses and individuals go online with fast, responsive, and secure digital solutions powered by React & Node.js
         </p>
 
