@@ -38,7 +38,7 @@ const Hero = () => {
         <img
           src={profileImage}
           alt="Profile"
-          className="w-[70vw] sm:w-[30vw] h-[60vh] sm:h-[100vh] object-cover rounded-b-[150px] sm:rounded-b-[200px] md:rounded-b-[250px] border-4 border-[#54068c]"
+          className="w-[70vw] sm:w-[30vw] h-[60vh] sm:h-[100vh] object-cover rounded-b-[150px] sm:rounded-b-[200px] md:rounded-b-[250px] border-4 border-[#dfe3eb]"
         />
       </motion.div>
 

@@ -6,19 +6,16 @@ const services = [
   {
     id: 1,
     title: "Web Development",
-    count: "10 Projects",
     icon: <Monitor className="w-6 h-6 text-white" aria-hidden="true" />,
   },
   {
     id: 2,
-    title: "Backend & API Development",
-    count: "6 Projects",
+    title: "Backend & API Development", 
     icon: <Smartphone className="w-6 h-6 text-white" aria-hidden="true" />,
   },
   {
     id: 3,
-    title: "Deployment & Maintenance",
-    count: "10 Projects",
+    title: "Deployment & Maintenance", 
     icon: <Palette className="w-6 h-6 text-white" aria-hidden="true" />,
   },
 ];
@@ -58,8 +55,7 @@ const HelpSection = () => {
               <div>
                 <h3 className="text-lg font-semibold text-[#6A0DAD]">
                   {service.title}
-                </h3>
-                <p className="text-gray-500 text-sm">{service.count}</p>
+                </h3> 
               </div>
             </motion.li>
           ))}
@@ -86,15 +82,7 @@ const HelpSection = () => {
             From understanding your idea to launching it online, I handle the entire process smoothly and clearly.
           </p>
 
-          {/* Stats */}
-          <div className="mt-8 flex gap-12">
-            <div>
-              <span className="block text-3xl font-bold text-[#2E035F]">
-                30+
-              </span>
-              <span className="text-gray-500 text-sm">Projects Completed</span>
-            </div> 
-          </div>
+
         </motion.div>
       </div>
     </section>
