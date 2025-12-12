@@ -1,5 +1,4 @@
-import React from "react"; 
-
+ 
 const Footer = () => {
   return (
     <footer className="min-h-[30vh] sm:min-h-[50vh] bg-[#2E035F] flex items-end justify-baseline overflow-hidden">

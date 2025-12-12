@@ -1,13 +1,7 @@
 import { motion } from "framer-motion";
-import {
-  Facebook,
-  Instagram,
-  Twitter,
-  Dribbble,
-  Linkedin,
-} from "lucide-react"; 
 import asani from "../assets/asani-logo.webp";
-
+import { FaFacebook, FaLinkedin } from "react-icons/fa";
+import { BsInstagram } from "react-icons/bs";
 const ContactInfo = () => {
   const fadeUp = {
     hidden: { opacity: 0, y: 20 },
@@ -93,13 +87,14 @@ const ContactInfo = () => {
           <h4 className="font-medium text-white mb-4">Follow Me</h4>
           <div className="flex space-x-6">
             <a className="text-[#6A0DAD] hover:text-[#5A0BA0]" href="https://www.linkedin.com/in/quratulain-yasir/">
-              <Linkedin className="w-6 h-6 transition-all duration-300 ease-in-out hover:scale-110" />
+              {/* <Linkedin className="w-6 h-6 transition-all duration-300 ease-in-out hover:scale-110" /> */}
+              <FaLinkedin className="w-6 h-6 transition-all duration-300 ease-in-out hover:scale-110" />
             </a>
             <a className="text-[#6A0DAD] hover:text-[#5A0BA0]" href="https://www.instagram.com/quratulainyasir97/">
-              <Instagram className="w-6 h-6 transition-all duration-300 ease-in-out hover:scale-110" />
+              <BsInstagram className="w-6 h-6 transition-all duration-300 ease-in-out hover:scale-110" />
             </a>
             <a className="text-[#6A0DAD] hover:text-[#5A0BA0]" href="#">
-              <Facebook className="w-6 h-6 transition-all duration-300 ease-in-out hover:scale-110" />
+              <FaFacebook className="w-6 h-6 transition-all duration-300 ease-in-out hover:scale-110" />
             </a>
             <a className="text-[#6A0DAD] hover:text-[#5A0BA0]" href="https://asani.pk/profile/quratulainyasir97">
             <img src={asani} alt="asani-logo" className="w-6 h-6 transition-all duration-300 ease-in-out hover:scale-110" /> 

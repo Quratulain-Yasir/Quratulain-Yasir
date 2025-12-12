@@ -1,4 +1,4 @@
-import React from "react";
+
 import { motion } from "framer-motion";
 import work1 from "../assets/work-1.png";
 import work2 from "../assets/work-2.png";
