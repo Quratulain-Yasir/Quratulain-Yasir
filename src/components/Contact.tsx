@@ -1,5 +1,5 @@
 
-import { motion } from "framer-motion";
+import { motion , easeInOut } from "framer-motion";
 import ContactForm from './ContactForm';
 import ContactInfo from './ContactInfo';
 
@@ -9,7 +9,7 @@ const Contact = () => {
   visible: (delay = 0) => ({
     opacity: 1,
     y: 0,
-    transition: { duration: 0.6, ease: "easeOut", delay },
+    transition: { duration: 0.6, ease: easeInOut, delay },
   }),
 };
 

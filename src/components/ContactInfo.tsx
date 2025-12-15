@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { motion , easeInOut } from "framer-motion";
 import asani from "../assets/asani-logo.webp";
 import { FaFacebook, FaLinkedin } from "react-icons/fa";
 import { BsInstagram } from "react-icons/bs";
@@ -8,7 +8,7 @@ const ContactInfo = () => {
     visible: (delay = 0) => ({
       opacity: 1,
       y: 0,
-      transition: { duration: 0.6, ease: "easeOut", delay },
+     transition: { duration: 0.6, ease: easeInOut, delay },
     }),
   };
 

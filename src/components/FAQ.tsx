@@ -3,7 +3,8 @@ import { CircleArrowDown } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const FAQ = () => {
-  const [openIndex, setOpenIndex] = useState(null);
+  const [openIndex, setOpenIndex] = useState<number | null>(null);
+  
 
   const faqs = [
     {

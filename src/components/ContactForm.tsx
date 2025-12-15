@@ -20,7 +20,7 @@ export default function ContactForm() {
     reset,
   } = useForm<ContactFormInputs>();
 
-  const onSubmit: handleSubmit<ContactFormInputs> = async (data) => { 
+  const onSubmit = async (data:ContactFormInputs) => { 
     try {
       await new Promise((resolve) => setTimeout(resolve, 1500));
       console.log("Form submitted:", data);
