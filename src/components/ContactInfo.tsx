@@ -1,7 +1,8 @@
 import { motion , easeInOut } from "framer-motion";
 import asani from "../assets/asani-logo.webp";
-import { FaFacebook, FaLinkedin } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 import { BsInstagram } from "react-icons/bs";
+import { IoLogoGithub } from "react-icons/io";
 const ContactInfo = () => {
   const fadeUp = {
     hidden: { opacity: 0, y: 20 },
@@ -93,8 +94,8 @@ const ContactInfo = () => {
             <a className="text-[#6A0DAD] hover:text-[#5A0BA0]" href="https://www.instagram.com/quratulainyasir97/">
               <BsInstagram className="w-6 h-6 transition-all duration-300 ease-in-out hover:scale-110" />
             </a>
-            <a className="text-[#6A0DAD] hover:text-[#5A0BA0]" href="#">
-              <FaFacebook className="w-6 h-6 transition-all duration-300 ease-in-out hover:scale-110" />
+            <a className="text-[#6A0DAD] hover:text-[#5A0BA0]" href="https://github.com/Quratulain-Yasir">
+              <IoLogoGithub className="w-6 h-6 transition-all duration-300 ease-in-out hover:scale-110" />
             </a>
             <a className="text-[#6A0DAD] hover:text-[#5A0BA0]" href="https://asani.pk/profile/quratulainyasir97">
             <img src={asani} alt="asani-logo" className="w-6 h-6 transition-all duration-300 ease-in-out hover:scale-110" /> 
