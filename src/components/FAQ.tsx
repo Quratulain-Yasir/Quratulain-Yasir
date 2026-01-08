@@ -26,9 +26,23 @@ const FAQ = () => {
     },
     {
       q: "Can I see your GitHub and live projects?",
-      a: `My GitHub showcases real-world MERN stack projects with clean, well-structured code, proper commit history, and clear project organization. Live demos of selected projects are also available so you can see the applications in action and explore their features firsthand.👉 Links are provided in the Projects section and you can visit my github profile${            <a className="text-[#6A0DAD] hover:text-[#5A0BA0]" href="https://github.com/Quratulain-Yasir">
-              <IoLogoGithub className="w-6 h-6 transition-all duration-300 ease-in-out hover:scale-110" />
-            </a>}`
+      a: (
+      <div className="flex items-center gap-2 flex-wrap">
+        <span>
+          Yes. You can explore my real-world MERN stack projects through my
+          GitHub and live demos available in the Projects section.
+        </span>
+
+        <a
+          href="https://github.com/Quratulain-Yasir"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#6A0DAD] hover:text-[#5A0BA0]"
+        >
+          <IoLogoGithub className="w-6 h-6 transition-transform duration-300 hover:scale-110" />
+        </a>
+      </div>
+    ),
     }
   ];
 
