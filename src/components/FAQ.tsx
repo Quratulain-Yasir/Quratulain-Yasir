@@ -8,24 +8,24 @@ const FAQ = () => {
 
   const faqs = [
     {
-      q: "What will my website cost?",
-      a: "Pricing depends on features (pages, e-commerce, booking, custom integrations). After a quick discovery call, I provide a detailed proposal with transparent cost breakdown so you know exactly where your money goes."
+      q: "What technologies do you work with?",
+      a: "MERN, React, Node.js, Express, MongoDB, Tailwind, Git, etc."
     },
     {
-      q: "How long will it take to launch?",
-      a: "A standard business site (5–7 pages) usually takes 2–4 weeks, depending on revisions and content readiness. Bigger projects (like e-commerce) can take 6–8 weeks. I set clear milestones so you can track progress."
+      q: "What kind of projects have you built?",
+      a: "SAAS(Online Tuition Booking System),auth systems, APIs, real-world clones, landing pages, e-commerce,CRUD apps"
     },
     {
-      q: "Will my site be SEO-ready & mobile-friendly?",
-      a: "Yes. Every site I build is responsive (works on all devices) and SEO-optimized with clean code, fast loading speed, and metadata setup — so it can start ranking on Google from day one."
+      q: "Do you have experience with APIs & databases?",
+      a: "REST APIs, MongoDB schemas, Mongoose, JWT, etc. I can build secure, scalable backends to power applications"
     },
     {
-      q: "Who owns the website & content after delivery?",
-      a: "100% you. You’ll get full access to domain, hosting, source code, images, and content. I never lock clients into dependency — you’re the complete owner."
+      q: "Are your applications responsive and performance-optimized?",
+      a: "Yes. All of my applications are fully responsive and designed to work seamlessly across mobile, tablet, and desktop devices. I follow modern frontend best practices such as reusable component architecture, optimized rendering, clean state management, and efficient API handling to ensure fast load times and smooth user experiences."
     },
     {
-      q: "Can you show me past work / portfolio?",
-      a: "Absolutely. I share live project links relevant to your industry so you can see both design style and technical capability before we begin."
+      q: "Can I see your GitHub and live projects?",
+      a: "My GitHub showcases real-world MERN stack projects with clean, well-structured code, proper commit history, and clear project organization. Live demos of selected projects are also available so you can see the applications in action and explore their features firsthand.👉 Links are provided in the Projects area you can visit my github"
     }
   ];
 
