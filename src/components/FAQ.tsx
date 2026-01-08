@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { CircleArrowDown } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import { IoLogoGithub } from "react-icons/io";
 
 const FAQ = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
@@ -25,7 +26,9 @@ const FAQ = () => {
     },
     {
       q: "Can I see your GitHub and live projects?",
-      a: "My GitHub showcases real-world MERN stack projects with clean, well-structured code, proper commit history, and clear project organization. Live demos of selected projects are also available so you can see the applications in action and explore their features firsthand.👉 Links are provided in the Projects area you can visit my github"
+      a: `My GitHub showcases real-world MERN stack projects with clean, well-structured code, proper commit history, and clear project organization. Live demos of selected projects are also available so you can see the applications in action and explore their features firsthand.👉 Links are provided in the Projects section and you can visit my github profile${            <a className="text-[#6A0DAD] hover:text-[#5A0BA0]" href="https://github.com/Quratulain-Yasir">
+              <IoLogoGithub className="w-6 h-6 transition-all duration-300 ease-in-out hover:scale-110" />
+            </a>}`
     }
   ];
 
