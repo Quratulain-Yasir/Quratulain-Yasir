@@ -33,7 +33,7 @@ const LatestWork = () => {
         {/* Image Section */}
         <div className="flex gap-x-5 sm:h-[60vh] h-[60vh] items-center w-full hide-scrollbar overflow-x-scroll mt-4">
           <motion.a
-            href="https://your-link.com"
+            href="https://github.com/Quratulain-Yasir/Online-Tuition"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="View full project details"
