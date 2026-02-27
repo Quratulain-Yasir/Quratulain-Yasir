@@ -2,6 +2,8 @@
 import { useForm } from "react-hook-form"; 
 import { motion } from "framer-motion";
 
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 
 type ContactFormInputs = {
@@ -9,6 +11,8 @@ type ContactFormInputs = {
   email:string;
   message:string;
 }
+
+
 
 
 export default function ContactForm() {
@@ -20,22 +24,38 @@ export default function ContactForm() {
     reset,
   } = useForm<ContactFormInputs>();
 
-  const onSubmit = async (data:ContactFormInputs) => { 
+const form = useRef<HTMLFormElement | null>(null);
+
+ const sendEmail = async () => {
+    if (!form.current) return;
+
     try {
-      await new Promise((resolve) => setTimeout(resolve, 1500));
-      console.log("Form submitted:", data);
+      await emailjs.sendForm(
+         import.meta.env.VITE_EMAIL_SERVICE_ID,     // replace
+         import.meta.env.VITE_EMAIL_TEMPLATE_ID,    // replace
+        form.current,
+        import.meta.env.VITE_EMAIL_PUBLIC_KEY      // replace
+      );
+
+      alert("Message sent successfully!");
       reset();
     } catch (error) {
-      console.error("Form submission failed:", error);
+      console.error(error);
+      alert("Failed to send message.");
     }
   };
+
+
+
+ 
 
   return (
  <section id="contact" className="w-full lg:w-1/2 flex">
  
 <div className="w-full h-full">
   <motion.form
-    onSubmit={handleSubmit(onSubmit)}
+      ref={form}
+  onSubmit={handleSubmit(sendEmail)}
     initial={{ opacity: 0, y: 50 }}
     whileInView={{ opacity: 1, y: 0 }}
     transition={{ duration: 0.7, delay: 0.2 }}
