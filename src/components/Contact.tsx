@@ -16,10 +16,10 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="py-16"
+      className="py-16 bg-[#bbb2db]"
       aria-labelledby="contact-heading"
     >
-          <div className="container mx-auto px-4 max-w-6xl">
+          <div className="container mx-auto px-4 max-w-6xl ">
         {/* Heading */}
         <motion.div
           className="text-center mb-12"
@@ -30,7 +30,7 @@ const Contact = () => {
         >
           <h2
             id="contact-heading"
-            className="text-4xl sm:text-5xl font-two font-bold text-[#6A0DAD] mb-4"
+            className="text-4xl sm:text-5xl font-two font-bold text-[#362072] mb-4"
           >
             Get In Touch
           </h2>
@@ -40,7 +40,7 @@ const Contact = () => {
         </motion.div>
 </div>
 
-<div className='flex flex-col lg:flex-row gap-10 px-7'>
+<div className='flex flex-col lg:flex-row gap-10 px-7 '>
   <ContactForm />
   <ContactInfo />
 </div>

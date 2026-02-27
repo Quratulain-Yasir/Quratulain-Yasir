@@ -8,10 +8,10 @@ import work4 from "../assets/work-4.png";
 const LatestWork = () => {
   return (
     <section id="portfolio">
-      <div className="py-10 px-12 sm:px-20 font-medium w-full min-h-[80vh] text-gray-700 bg-[#2E035F]">
+      <div className="py-10 px-12 sm:px-20 font-medium w-full min-h-[80vh] text-gray-700 bg-[#362072] font-four">
         {/* Heading Animation */}
         <motion.h2
-          className="mt-10 text-3xl sm:text-6xl font-light font-one text-white tracking-wider"
+          className="mt-10 text-3xl sm:text-6xl font-semibold text-white tracking-wider"
           initial={{ opacity: 0, y: -40 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
@@ -21,7 +21,7 @@ const LatestWork = () => {
         </motion.h2>
 
         <motion.p
-          className="font-four text-[#d8cfc4] font-light text-sm mt-4"
+          className="font-four text-[#d8cfc4] font-light text-sm mt-4 tracking-wide"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}

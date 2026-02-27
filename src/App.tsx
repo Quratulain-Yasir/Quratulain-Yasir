@@ -9,15 +9,13 @@ import Services from "./components/Services";
 
 function App() {
   return (
-    <div>
-      <Header />
-      <Hero />
+    <div className="bg-[#362072]"> 
+        <Header />
+      <Hero /> 
       <Services /> 
-      <LatestWork /> 
-      <div className="custom-gradient">
+      <LatestWork />  
       <FAQ />
-      <Contact />
-      </div>
+      <Contact /> 
       <Footer />
       <BackToTopButton />
     </div>

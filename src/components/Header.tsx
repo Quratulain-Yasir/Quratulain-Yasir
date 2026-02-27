@@ -11,14 +11,14 @@ export default function Header() {
       initial={{ y: -40, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
-      className="w-full flex justify-between items-center px-6 sm:px-15 py-4 sm:py relative z-50 font-one sticky top-0 bg-[#2E035F] text-[#F3F4F6]"
+      className="w-4/5 rounded-full flex justify-between items-center px-6 sm:px-15 py-4 sm:py relative z-50 font-one sticky top-5 header-scroll text-[#F3F4F6] mx-auto"
     >
       {/* Logo */}
       <motion.h1
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.4 }}
-        className="text-xl sm:text-4xl  tracking-wider text-shadow-lg"
+        className="text-xl sm:text-2xl  tracking-wider text-shadow-lg"
       >
         QURATULAIN
       </motion.h1>
@@ -29,7 +29,7 @@ export default function Header() {
         whileHover={{ scale: 1.09 }}
         transition={{ type: "spring", stiffness: 400 }}
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center gap-2 border-none px-4 py-2 rounded-full bg-[#6A0DAD] hover:bg-[#7728b0] transition text-white text-sm sm:text-base  shadow-md shadow-[#6A0DAD] tracking-wider"
+        className="flex items-center gap-2 border-none px-4 py-2 rounded-full bg-[#362072] hover:bg-[#362072] transition text-white text-sm sm:text-base  shadow-md shadow-[#362072] tracking-wider"
       >
         <span className="hidden sm:inline">{isOpen ? "CLOSE" : "MENU"}</span>
         {isOpen ? (

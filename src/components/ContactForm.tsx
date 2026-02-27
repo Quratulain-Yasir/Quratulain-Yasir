@@ -40,7 +40,7 @@ export default function ContactForm() {
     whileInView={{ opacity: 1, y: 0 }}
     transition={{ duration: 0.7, delay: 0.2 }}
     viewport={{ once: true }}
-    className="rounded-lg p-8 shadow-lg hover:shadow-purple-800 focus:shadow-purple-800 active:shadow-purple-800 flex flex-col justify-between h-full bg-[#2E035F] transition-all duration-300 ease-in-out hover:scale-105 "
+    className="rounded-lg p-8 shadow-lg hover:shadow-purple-800 focus:shadow-purple-800 active:shadow-purple-800 flex flex-col justify-between h-full bg-[#362072] transition-all duration-300 ease-in-out hover:scale-105 "
   >
             {/* Name */}
             <motion.div

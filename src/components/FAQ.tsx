@@ -49,12 +49,12 @@ const FAQ = () => {
   return (
     <section
       id="faq"
-      className="max-w-7xl mx-auto sm:px-12 px-4 py-12"
+      className="max-w-7xl mx-auto sm:px-12 px-4 py-12 bg-[#bbb2db]"
       aria-labelledby="faq-heading"
     >
       <h2
         id="faq-heading"
-        className="text-4xl sm:text-5xl font-bold text-[#6A0DAD] mb-13 text-center font-four"
+        className="text-4xl sm:text-5xl font-bold text-[#362072] mb-13 text-center font-four"
       >
         Frequently Asked <br /> Questions
       </h2>
@@ -64,7 +64,7 @@ const FAQ = () => {
           <div key={idx} className="border-b pb-4">
             <button
               onClick={() => setOpenIndex(openIndex === idx ? null : idx)}
-              className="w-full cursor-pointer sm:text-2xl text-xl font-medium text-[#2E035F] flex justify-between items-start focus:outline-none"
+              className="w-full cursor-pointer sm:text-2xl text-xl font-medium text-[#362072] flex justify-between items-start focus:outline-none"
             >
               {faq.q}
               <motion.span

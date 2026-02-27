@@ -16,7 +16,7 @@ const ContactInfo = () => {
   return (
     <section className="w-full lg:w-1/2 flex">
       <motion.div
-        className="rounded-lg p-8 shadow-lg w-full bg-[#2E035F] transition-all duration-300 ease-in-out hover:scale-105 active:scale-105 hover:shadow-purple-800 active:shadow-purple-800"
+        className="rounded-lg p-8 shadow-lg w-full bg-[#362072] transition-all duration-300 ease-in-out hover:scale-105 active:scale-105 hover:shadow-purple-800 active:shadow-purple-800"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.3 }}
