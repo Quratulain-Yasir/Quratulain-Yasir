@@ -21,9 +21,9 @@ const Hero = () => {
           Helping small businesses and individuals go online with fast, responsive, and secure digital solutions powered by React & Node.js
         </p>
 
-        <button className="h-[10vh] border-2 border-[rgba(40, 19, 90, 1)] pl-4 pr-2 py-1 rounded-full text-[#d8cfc4] hover:text-[#d8cfc4] shadow-md transition font-one text-md sm:text-lg inline-flex gap-2 sm:gap-3 items-center hover:scale-105 focus:scale-105 duration-300 ease-in-out mt-4 z-10">
+        <button className="h-[8vh] sm:h-[9vh] border-2 border-[rgba(40, 19, 90, 1)] pl-4 pr-2 py-1 rounded-full text-[#d8cfc4] hover:text-[#d8cfc4] shadow-md transition font-one text-md sm:text-lg inline-flex gap-2 sm:gap-3 items-center hover:scale-105 focus:scale-105 duration-300 ease-in-out mt-4 z-10">
           Let’s Build Your Website
-          <span className="bg-[#d8cfc4] rounded-full px-2 py-2 text-black">
+          <span className="bg-[#d8cfc4] rounded-full px-1 py-1 text-black">
             <ArrowRight className="w-4 h-4" />
           </span>
         </button>

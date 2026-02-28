@@ -1,7 +1,7 @@
 
 import { useForm } from "react-hook-form"; 
 import { motion } from "framer-motion";
-
+import { toast } from 'react-toastify';
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
@@ -38,11 +38,11 @@ const form = useRef<HTMLFormElement | null>(null);
         
       );
 
-      alert("Message sent successfully!"); 
+      toast.success('Message sent')
       reset();
     } catch (error) {
       console.error(error); 
-      alert("Failed to send message.");
+      toast.error(error);
     }
   };
 

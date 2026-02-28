@@ -47,7 +47,7 @@ export default function Header() {
             animate={{ y: 0, opacity: 1 }}
             exit={{ y: -20, opacity: 0 }}
             transition={{ duration: 0.3, ease: "easeInOut" }}
-            className="absolute top-full right-6 md:right-12 mt-3 bg-white shadow-lg rounded-xl overflow-hidden w-48"
+            className="absolute top-full right-6 md:right-12 mt-3 bg-[#bbb2db] shadow-lg rounded-xl overflow-hidden w-48"
           >
             <ul className="flex flex-col divide-y divide-gray-200">
                   <motion.li
