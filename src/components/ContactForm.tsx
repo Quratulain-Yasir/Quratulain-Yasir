@@ -159,17 +159,6 @@ const form = useRef<HTMLFormElement | null>(null);
             >
               {isSubmitting ? "Sending..." : "Send Message"}
             </motion.button>
-
-            {/* Success message with fade-in */}
-            {isSubmitSuccessful && (
-              <motion.p
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                className="text-green-600 text-sm mt-4 text-center"
-              >
-                ✅ Your message has been sent!
-              </motion.p>
-            )}
           </motion.form>
         </div> 
 
