@@ -20,13 +20,13 @@ export default function ContactForm() {
   const {
     register,
     handleSubmit,
-    formState: { errors, isSubmitting, isSubmitSuccessful },
+    formState: { errors, isSubmitting },
     reset,
   } = useForm<ContactFormInputs>();
 
 const form = useRef<HTMLFormElement | null>(null);
 
- const sendEmail = async ( data: ContactFormInputs ) => {
+ const sendEmail = async ( _data: ContactFormInputs ) => {
     if (!form.current) return;
 
     try {
