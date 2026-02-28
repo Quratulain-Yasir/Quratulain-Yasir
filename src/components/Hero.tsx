@@ -8,7 +8,7 @@ const Hero = () => {
       {/* Left Text Content */}
       <div className="md:w-3/4">
       
-        <h1 className="text-3xl sm:text-5xl  leading-tighter mt-15">
+        <h1 className="text-3xl sm:text-5xl  leading-tighter mt-15 sm:mt-2">
           <span className="font-one">clean, mobile-first websites</span>
           <br />
           <span className="italic font-medium font-two">& scalable APIs</span>

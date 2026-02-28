@@ -26,7 +26,7 @@ export default function ContactForm() {
 
 const form = useRef<HTMLFormElement | null>(null);
 
- const sendEmail = async () => {
+ const sendEmail = async ( data: ContactFormInputs ) => {
     if (!form.current) return;
 
     try {
@@ -35,12 +35,13 @@ const form = useRef<HTMLFormElement | null>(null);
          import.meta.env.VITE_EMAIL_TEMPLATE_ID,    // replace
         form.current,
         import.meta.env.VITE_EMAIL_PUBLIC_KEY      // replace
+        
       );
 
-      alert("Message sent successfully!");
+      alert("Message sent successfully!"); 
       reset();
     } catch (error) {
-      console.error(error);
+      console.error(error); 
       alert("Failed to send message.");
     }
   };
@@ -79,7 +80,7 @@ const form = useRef<HTMLFormElement | null>(null);
               <input
                 id="name"
                 type="text"
-                {...register("name", { required: "Name is required" })}
+                {...register("name", { required: "Name is required" })} name="name"
                 className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:border-white"
               />
               {errors.name && (
@@ -112,7 +113,7 @@ const form = useRef<HTMLFormElement | null>(null);
                     value: /^[^@\s]+@[^@\s]+\.[^@\s]+$/,
                     message: "Invalid email address",
                   },
-                })}
+                })} name="email"
                 className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:border-white"
               />
               {errors.email && (
@@ -139,7 +140,7 @@ const form = useRef<HTMLFormElement | null>(null);
               <textarea
                 id="message"
                 rows={5}
-                {...register("message", { required: "Message is required" })}
+                {...register("message", { required: "Message is required" })} name="message"
                 className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:border-white"
               />
               {errors.message && (
