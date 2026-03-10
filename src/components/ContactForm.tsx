@@ -41,9 +41,9 @@ const form = useRef<HTMLFormElement | null>(null);
       toast.success('Message sent')
       reset();
     } catch (error) {
-      console.error(error); 
-      toast.error(error);
-    }
+  const message = error instanceof Error ? error.message : "Something went wrong";
+  toast.error(message);
+}
   };
 
 

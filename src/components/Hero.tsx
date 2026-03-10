@@ -51,7 +51,7 @@ const Hero = () => {
           className="h-full w-full object-cover rounded-md shadow-lg relative  rounded-3xl shadow-2xl"
         />
       </motion.div>
-       <div className="absolute lg:bottom-9 bottom-6 right-[0.5px] bg-purple-800 text-white text-[0.68rem] tracking-[0.2em] uppercase lg:px-5 lg:py-2 px-3 py-2 lg:font-medium font-light lg:mr-10 mr-4 rounded-full">Web Developer · Faisalabad</div>
+       <div className="absolute lg:bottom-0 bottom-6 right-[0.5px] bg-purple-800 text-white text-[0.68rem] tracking-[0.2em] uppercase lg:px-5 lg:py-3 px-3 py-2 lg:font-medium font-light lg:mr-12 mr-4 rounded-full">Web Developer · Faisalabad</div>
     </section>
   );
 };
