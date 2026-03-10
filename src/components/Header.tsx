@@ -11,7 +11,7 @@ export default function Header() {
       initial={{ y: -40, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
-      className="w-4/5 rounded-full flex justify-between items-center px-6 sm:px-15 py-4 sm:py relative z-50 font-one sticky top-5 header-scroll text-[#F3F4F6] mx-auto"
+      className="lg:w-4/5 w-5/6 rounded-full flex justify-between items-center px-4 lg:px-15 lg:py-4 py-3 sm:py relative z-50 font-one sticky top-5 header-scroll text-[#F3F4F6] mx-auto"
     >
       {/* Logo */}
       <motion.h1
