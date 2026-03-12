@@ -11,7 +11,7 @@ const LatestWork = () => {
       <div className="py-10 px-12 sm:px-20 font-medium w-full min-h-[80vh] text-gray-700 bg-[#362072] font-four">
         {/* Heading Animation */}
         <motion.h2
-          className="mt-10 text-3xl sm:text-6xl font-semibold text-white tracking-wider"
+          className="mt-10 text-4xl sm:text-5xl font-bold text-white tracking-wider"
           initial={{ opacity: 0, y: -40 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
