@@ -22,9 +22,9 @@ const Hero = () => {
          <p className="max-w-md font-one text-base lg:text-lg sm:text-lg md:text-2xl font-normal text-[#d8cfc4] py-5 leading-relaxed">
           I build fast, secure websites and digital tools for small businesses and individuals who are done looking unprofessional online. No templates. No fluff. Just work that actually performs.
         </p>
-<div className="flex items-center gap-6 justify-between px-2 pb-10 lg:pb-5 lg:py-5">
+<div className="flex items-center lg:flex-row flex-col gap-3 justify-between lg:px-2 pb-10 lg:pb-5 lg:py-5">
   
-        <button className="h-[8vh] sm:h-[9vh] border-2 border-[rgba(40, 19, 90, 1)] pl-5 pr-2 py-1 rounded-full text-[#d8cfc4] hover:text-[#d8cfc4] shadow-md transition font-one text-xs lg:text-lg inline-flex gap-2 sm:gap-3 items-center hover:scale-105 focus:scale-105 duration-300 ease-in-out mt-4 z-10">
+        <button className="h-[8vh] sm:h-[9vh] border-2 border-[rgba(40, 19, 90, 1)] lg:pl-5 pr-2 py-1 px-2 rounded-full text-[#d8cfc4] hover:text-[#d8cfc4] shadow-md transition font-one text-xs lg:text-lg inline-flex gap-2 sm:gap-3 items-center hover:scale-105 focus:scale-105 duration-300 ease-in-out mt-4 z-10">
           Let’s Build Your Website
           <span className="bg-[#d8cfc4] rounded-full px-1 py-1 text-black">
             <ArrowRight className="w-4 h-4" />
@@ -51,7 +51,7 @@ const Hero = () => {
           className="h-full w-full object-cover rounded-md shadow-lg relative  rounded-3xl shadow-2xl"
         />
       </motion.div>
-       <div className="absolute lg:bottom-0 bottom-23 right-[0.5px] bg-purple-800 text-white text-[0.68rem] tracking-[0.2em] uppercase lg:px-5 lg:py-3 px-3 py-2 lg:font-medium font-light lg:mr-12 mr-2 rounded-full">Web Developer · Faisalabad</div>
+       <div className="absolute lg:bottom-0 bottom-15 right-[0.5px] bg-purple-800 text-white text-[0.68rem] tracking-[0.2em] uppercase lg:px-5 lg:py-3 px-3 py-2 lg:font-medium font-light lg:mr-12 mr-2 rounded-full">Web Developer · Faisalabad</div>
     </section>
   );
 };
