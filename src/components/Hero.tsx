@@ -24,7 +24,7 @@ const Hero = () => {
         </p>
 <div className="flex items-center lg:flex-row flex-col gap-3 justify-between lg:px-2 pb-10 lg:pb-5 lg:py-5">
   
-        <button className="h-[8vh] sm:h-[9vh] border-2 border-[rgba(40, 19, 90, 1)] lg:pl-5 pr-2 lg:py-3 py-1 lg:px-2 px-4 rounded-full text-[#d8cfc4] hover:text-[#d8cfc4] shadow-md transition font-one text-sm lg:text-lg inline-flex gap-2 sm:gap-3 items-center hover:scale-105 focus:scale-105 duration-300 ease-in-out mt-4 z-10">
+        <button className="h-[8vh] sm:h-[9vh] border-2 border-[rgba(40, 19, 90, 1)] lg:pl-5 pr-2 lg:py-3 py-1 lg:px-2 px-8 rounded-full text-[#d8cfc4] hover:text-[#d8cfc4] shadow-md transition font-one text-sm lg:text-lg inline-flex gap-2 sm:gap-3 items-center hover:scale-105 focus:scale-105 duration-300 ease-in-out mt-4 z-10">
           Let’s Build Your Website
           <span className="bg-[#d8cfc4] rounded-full px-1 py-1 text-black">
             <ArrowRight className="w-4 h-4" />
