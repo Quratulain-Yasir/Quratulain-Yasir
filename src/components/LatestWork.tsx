@@ -8,10 +8,10 @@ import work4 from "../assets/work-4.png";
 const LatestWork = () => {
   return (
     <section id="portfolio">
-      <div className="py-10 px-12 sm:px-20 font-medium w-full min-h-[80vh] text-gray-700 bg-[#362072] font-four">
+      <div className="py-10 px-3 lg:px-20 font-medium w-full min-h-[80vh] text-gray-700 bg-[#362072] font-four">
         {/* Heading Animation */}
         <motion.h2
-          className="mt-10 text-4xl sm:text-5xl font-bold text-white tracking-wider"
+          className="mt-10 text-[2.14rem] lg:text-5xl font-bold text-white tracking-wider"
           initial={{ opacity: 0, y: -40 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
@@ -31,7 +31,7 @@ const LatestWork = () => {
         </motion.p>
 
         {/* Image Section */}
-        <div className="flex gap-x-5 sm:h-[60vh] h-[60vh] items-center w-full hide-scrollbar overflow-x-scroll mt-4">
+        <div className="flex gap-x-5 sm:h-[60vh] h-[60vh] items-center w-full hide-scrollbar overflow-x-scroll mt-1 lg:mt-5">
           <motion.a
             href="https://github.com/Quratulain-Yasir/Online-Tuition"
             target="_blank"
