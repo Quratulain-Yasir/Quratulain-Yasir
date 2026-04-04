@@ -60,7 +60,7 @@ export default function Header() {
                     whileHover={{ backgroundColor: "#f9fafb" }}
                     className="px-4 py-3 text-sm cursor-pointer text-[#6A0DAD]"
                   >
-                    <Link to="about" smooth={true} duration={500}>About Me</Link>
+                    <Link to="aboutme" smooth={true} duration={500}>About Me</Link>
                   </motion.li>
                   <motion.li
                     whileHover={{ backgroundColor: "#f9fafb" }}

@@ -6,11 +6,7 @@ const Hero = () => {
   return (
   <section id="home" className="min-h-screen flex  flex-col-reverse md:flex-row px-6 sm:px-25 py-20 lg:py-25 pb-10  text-[#F3F4F6] bg-[#362072] items-center">
       {/* Left Text Content */}
-      <div className="md:w-3/4">
-            {/* <div className="flex gap-4 items-center">
-        <div className="w-2 h-2 bg-white rounded-full"></div>
-        <span className="font-one tracking-widest text-sm lg:text-base ">Available for freelance · 2026</span>
-      </div> */}
+      <div className="md:w-3/4"> 
       
         <h1 className="text-4xl lg:text-6xl leading-tighter mt-10 lg:mt-12 lg:mb-6 font-bold">
           <span className="font-two">Your business, </span>
@@ -24,12 +20,15 @@ const Hero = () => {
         </p>
 <div className="flex items-center lg:flex-row flex-col gap-4 justify-between lg:px-2 pb-10 lg:pb-5 lg:py-5">
   
-        <button className="h-[8vh] sm:h-[9vh] border-2 border-[rgba(40, 19, 90, 1)] lg:pl-5 pr-2 lg:py-3 py-1 lg:px-2 px-7 rounded-full text-[#d8cfc4] hover:text-[#d8cfc4] shadow-md transition font-one text-base lg:text-lg inline-flex gap-2 sm:gap-3 items-center hover:scale-105 focus:scale-105 duration-300 ease-in-out mt-4 z-10">
+        <a
+              href="https://wa.me/923259582812?text=Hi%2C%20I%E2%80%99m%20interested%20in%20building%20a%20website.%20Could%20you%20let%20me%20know%20when%20you%E2%80%99re%20available%20to%20discuss%3F"
+              target="_blank"
+              rel="noopener noreferrer" className="h-[8vh] sm:h-[9vh] border-2 border-[rgba(40, 19, 90, 1)] lg:pl-5 pr-2 lg:py-3 py-1 lg:px-2 px-7 rounded-full text-[#d8cfc4] hover:text-[#d8cfc4] shadow-md transition font-one text-base lg:text-lg inline-flex gap-2 sm:gap-3 items-center hover:scale-105 focus:scale-105 duration-300 ease-in-out mt-4 z-10">
           Let’s Build Your Website
           <span className="bg-[#d8cfc4] rounded-full px-1 py-1 text-black">
             <ArrowRight className="w-4 h-4" />
           </span>
-        </button>
+        </a>
        <div className="stack-note lg:text-base text-sm text-[#d8cfc4] lg:px-8">
         React & Node.js<br/>
         Vercel · REST APIs
@@ -44,7 +43,7 @@ const Hero = () => {
         transition={{ duration: 0.6 }}
         className="w-[82vw] lg:w-[40vw] h-full transform hover:rotate-1 hover:scale-105 transition focus:scale-102 duration-300 ease-in-out relative"
       >
-        <div className="absolute lg:w-100 lg:h-100 w-55 h-65 bg-purple-800 blur-3xl rounded-full"></div>
+        <div className="absolute lg:w-70 lg:h-90 w-55 h-65 bg-purple-800 blur-3xl rounded-full"></div>
         <img
           src={profileImage}
           alt="Profile"

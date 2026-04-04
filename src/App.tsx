@@ -1,3 +1,4 @@
+import Aboutme from "./components/Aboutme";
 import BackToTopButton from "./components/BackToTopButton";
 import Contact from "./components/Contact";
 import FAQ from "./components/FAQ";
@@ -12,6 +13,7 @@ function App() {
     <div className="bg-[#362072]"> 
         <Header />
       <Hero /> 
+      <Aboutme />
       <Services /> 
       <LatestWork />  
       <FAQ />
