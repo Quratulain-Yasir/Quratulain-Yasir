@@ -1,6 +1,6 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import profileImage from "../assets/profile.jpg";
+import profileImage from "../assets/profile.webp";
 
 export default function Aboutme() {
   const ref = useRef(null);
